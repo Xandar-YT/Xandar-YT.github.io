@@ -34,7 +34,7 @@ hl{
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: rgb(232, 230, 227);
     line-height: 1.6;
 }
 
@@ -88,7 +88,7 @@ h1{
 .btn{
     cursor: pointer;
     padding: 10px 30px;
-    background-color: #333;
+    background-color: #181a1b;
     border-radius: 5px;
     border:none;
     color: #fff;
@@ -147,4 +147,13 @@ h1{
 .flexkolone .kolona{
     display:flex;
     flex-direction: column;
+}
+
+/* *{
+    background-color: gray;
+} */
+
+html{
+    background-color: #181a1b; !important
+    color-scheme: dark; !important
 }
