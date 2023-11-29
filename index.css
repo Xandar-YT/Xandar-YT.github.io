@@ -157,3 +157,8 @@ html{
     background-color: #181a1b; !important
     color-scheme: dark; !important
 }
+
+.copyright{
+    text-align: center;
+    color: gray;
+}
