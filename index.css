@@ -57,7 +57,7 @@ a{
 
 .navbar .logo{
     font-weight: 900px;
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 2.5%;
     text-align: center;
 }
