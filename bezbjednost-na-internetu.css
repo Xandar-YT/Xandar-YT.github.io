@@ -1,0 +1,165 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+hl{
+    line-height: 1.2;
+    font-weight: 300;
+}
+ */
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.navbar ul{
+    display:flex;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(232, 230, 227);
+    line-height: 1.6;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    color: white;
+    padding: 50px 10px;
+}
+
+.nav ul a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.navbar .logo{
+    padding: 0px 20px;
+    font-weight: 900px;
+    /* background-color: tomato; */
+    width: 2.5%;
+    text-align: center;
+}
+
+h1{
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.header{
+    background:center/cover no-repeat url("internet.jpg");
+    height: 100vh;
+}
+
+.header .naslov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* padding: 0 20px; */
+}
+
+.header .naslov h1{
+    font-size: 55px;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #181a1b;
+    border-radius: 5px;
+    border:none;
+    color: #fff;
+}
+.naslov a i span{
+    padding: 5px 5px;
+}
+
+.btn:hover{
+    color: cyan;
+}
+
+.web{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ikonice{
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ikonice h3{
+    margin-bottom: 15px;
+}
+
+.ikonice i{
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.web div{
+    padding: 10px;
+}
+
+.flexkolone img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flexkolone .red{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.flexkolone .kolona{
+    display:flex;
+    flex-direction: column;
+}
+
+/* *{
+    background-color: gray;
+} */
+
+html{
+    background-color: #181a1b; !important
+    color-scheme: dark; !important
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
+}
