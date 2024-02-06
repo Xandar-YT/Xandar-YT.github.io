@@ -69,7 +69,8 @@ h1{
 }
 
 .header{
-    background:url("https://wallpapercg.com/download/underwater-7680x4320-8301.jpg");
+    /* background:url("https://wallpapercg.com/download/underwater-7680x4320-8301.jpg"); */
+    background:center/cover no-repeat url("internet.jpg");
     height: 100vh;
 }
 
